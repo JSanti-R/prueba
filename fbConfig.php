@@ -14,9 +14,9 @@ use Facebook\Exceptions\FacebookSDKException;
 /*
  * Configuración de Facebook SDK
  */
-$appId         = '1908910596018805'; //Identificador de la Aplicación
-$appSecret     = 'd957a4ade1e8ca26956dcdd7c20479c9'; //Clave secreta de la aplicación
-$redirectURL   = 'http://itictutoriales.260mb.net/fb_login/'; //Callback URL
+$appId         = '565239884234872'; //Identificador de la Aplicación
+$appSecret     = '58ba5d1b87ffa2b54ddd2e4173bc38af'; //Clave secreta de la aplicación
+$redirectURL   = 'https://pruebasdefacebook.herokuapp.com/'; //Callback URL
 $fbPermissions = array('');  //Permisos opcionales
 
 $fb = new Facebook(array(
